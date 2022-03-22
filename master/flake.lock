@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-sling-master": "src-sling-master"
+      }
+    },
+    "src-sling-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1457325558,
+        "narHash": "sha256-x/eMxOMRb9BvzcwHKEIpL2RsEGSrxYBklErUmSlSB08=",
+        "owner": "Druage",
+        "repo": "sling",
+        "rev": "d73bed23a55755b562576d4a8e86f3700409e3cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Druage",
+        "ref": "refs/heads/master",
+        "repo": "sling",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
