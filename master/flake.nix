@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sling-master.flake = false;
+  inputs.src-sling-master.ref   = "refs/heads/master";
   inputs.src-sling-master.owner = "Druage";
-  inputs.src-sling-master.ref   = "master";
   inputs.src-sling-master.repo  = "sling";
   inputs.src-sling-master.type  = "github";
   
