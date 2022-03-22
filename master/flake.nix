@@ -1,5 +1,5 @@
 {
-  description = ''Signal and Slot library for Nim.'';
+  description = ''A signal and slot implementation for Nim'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-sling-master.flake = false;
   inputs.src-sling-master.owner = "Druage";
-  inputs.src-sling-master.ref   = "refs/heads/master";
+  inputs.src-sling-master.ref   = "master";
   inputs.src-sling-master.repo  = "sling";
   inputs.src-sling-master.type  = "github";
   
