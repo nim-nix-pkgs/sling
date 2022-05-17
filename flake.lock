@@ -51,11 +51,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918440,
-        "narHash": "sha256-1MrULJLItBWd7+BcJUiwo3mQHr7u/kyFWnDLmpubxw0=",
+        "lastModified": 1652391568,
+        "narHash": "sha256-cGCc/vOC46X2vtN4/X1R5gTS/VbEfzM/nCtQyZwHUwE=",
         "owner": "nim-nix-pkgs",
         "repo": "sling",
-        "rev": "947fe7178d9a7619b6910ec5a21934e578171aad",
+        "rev": "e25cf89bdc906be898ad613565a680bababa743f",
         "type": "github"
       },
       "original": {
